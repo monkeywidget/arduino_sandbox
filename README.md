@@ -48,15 +48,16 @@ The problem:
 
 - http://arduino.stackexchange.com/questions/3324/arduino-compatibles-serial-port-not-showing-mac-osx
 
-
 Solution from:
 - http://0xcf.com/2015/03/13/chinese-arduinos-with-ch340-ch341-serial-usb-chip-on-os-x-yosemite/
-
+- video tutorial: https://www.youtube.com/watch?v=RTmjy3uDhPg
 
       Turns out that the driver isn’t signed and in Yosemite, driver files must be signed to be used. There’s a command we can issue to bypass this.
 
 
 1. Install software but don’t restart yet.
+     1. ch34x - https://drive.google.com/file/d/0B8sZKxW3s0j-QU52N1ZCbFduYUE/view
+     1. FTDI  - https://learn.sparkfun.com/tutorials/how-to-install-ftdi-drivers/mac
 1. in Terminal run:
      1. sudo nvram boot-args=”kext-dev-mode=1″
 1. Restart your Mac
