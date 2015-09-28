@@ -15,12 +15,16 @@ Connect the USB programmer
 --------------------------
 
 The connecting pins are:
-- DTR - DTR to board
-- RXD - receive - goes to TXO on board
-- TXD - transmit - goes to RXI on board
-- VC - power to board
-- CTS - ??
-- GND - ground to board
+
+     USB:340 connector   |   Pro Mini
+     BTE13-009           |   BTE13-010A
+     -----------------   |   -------------------
+                   DTR   |   DTR
+                   RXD   |   TXO
+                   TXD   |   RXI
+                   VC    |   VCC
+          unused:  CTS   |   other GND - unused (do not connect)
+                   GND   |   GND
 
 
 Driver
