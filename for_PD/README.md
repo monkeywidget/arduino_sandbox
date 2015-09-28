@@ -1,6 +1,11 @@
 Arduino as PD controller
 ========================
 
+In which we set up Arduino, with whatever knobs are attached at the given moment, as a PD controller, connected by USB cable.
+
+What is PD?
+-----------
+
 PD is "Pure Data" 
 - which is a open source version of MaxMSP
 - MaxMSPis a lot of things, but can be used as a software synthesizer for audio signals
