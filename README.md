@@ -90,7 +90,8 @@ Turns out that the driver isn’t signed and in Yosemite, driver files must be s
 1. in Terminal run:
      1. sudo nvram boot-args=”kext-dev-mode=1″
 1. Restart your Mac
-1. try again.  If the port isn't showing up, restart AGAIN (it took 3 times for me)
+1. it shows up when you do ls /dev/cu.* , like "/dev/cu.wchusbserial1410"
+1. no? try again.  If the port isn't showing up, restart AGAIN (it took 3 times for me)
 1. OPTIONAL in Terminal:
      1. sudo ln -s /dev/tty.wch\ ch341\ USB\=\>RS232\ 1410 /dev/tty.wch
 
