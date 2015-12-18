@@ -79,6 +79,7 @@ In summary, all of:
 
 From:
 - http://0xcf.com/2015/03/13/chinese-arduinos-with-ch340-ch341-serial-usb-chip-on-os-x-yosemite/
+- http://kiguino.moos.io/2014/12/31/how-to-use-arduino-nano-mini-pro-with-CH340G-on-mac-osx-yosemite.html
 - video tutorial: https://www.youtube.com/watch?v=RTmjy3uDhPg
 
 Turns out that the driver isn’t signed and in Yosemite, driver files must be signed to be used. There’s a command we can issue to bypass this.
