@@ -22,12 +22,14 @@ This chip does not include a USB port and so requires a transfer chip - see belo
 
 - Pro Mini 168 Mini ATMEGA168 5V/16MHz
      - BTE13-010A
+     - [pinout reference at talpa.dk](http://talpa.dk/?id=2&url=Electronics/BTE13-010/index.html)
 - USB to TTL transfer chip
      - BTE13-009
 - Arduino IDE settings
      - board: set to Adruino Pro / Pro Mini
      - processor: set to ATMEGA168 5V/16MHz
      - programmer: AVR ISP
+
 
 Connect the USB programmer
 --------------------------
